@@ -6,12 +6,11 @@ pipeline {
         echo '***************************************************************'
         echo '******            CLONANDO REPOR DOCKER COMPOSE          ******'
         echo '***************************************************************'
-        
         sh "git clone https://github.com/GuiBrixton/SeleniumOdin.git configuracion --branch main"
       }
     }
 
-    stage('Cloning Git') {
+    stage('Delete Repo') {
       steps {
         echo '***************************************************************'
         echo '******            CLONANDO REPOR DOCKER COMPOSE          ******'
@@ -22,7 +21,7 @@ pipeline {
     stage('Build') {
       steps {
         echo '***************************************************************'
-        echo '******            CLONANDO REPOR DOCKER COMPOSE  FIM        ******'
+        echo '******            CLONANDO REPOR DOCKER COMPOSE  FIM     le******'
         echo '***************************************************************'
         }
 
@@ -37,4 +36,3 @@ pipeline {
     }
 }
   }
-
