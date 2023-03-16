@@ -6,7 +6,7 @@ pipeline {
         echo '***************************************************************'
         echo '******            CLONANDO REPOR DOCKER COMPOSE          ******'
         echo '***************************************************************'
-        sh 'mkdir test'
+        sh 'mkdir ./test'
         //sh "git clone https://github.com/GuiBrixton/SeleniumOdin.git configuracion --branch main"
       }
     }
